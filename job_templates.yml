@@ -1,0 +1,11 @@
+---
+controller_templates:
+ - name: Dell / Provision Powerblade
+   execution_environment: seed_ee
+   instance_groups:
+     - default
+   inventory: Demo Inventory
+   project: Partner - Dell Playbooks
+   playbook: hello_dell.yml
+   job_tags: Dell
+   labels: Dell
