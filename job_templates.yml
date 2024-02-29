@@ -1,7 +1,7 @@
 ---
 controller_templates:
  - name: Dell / Provision Powerblade
-   execution_environment: seed_ee
+   execution_environment: Dell EE
    instance_groups:
      - default
    inventory: Demo Inventory
@@ -9,3 +9,4 @@ controller_templates:
    playbook: hello_dell.yml
    job_tags: Dell
    labels: Dell
+   ask_inventory_on_launch: true

@@ -1,0 +1,4 @@
+---
+controller_execution_environments:
+  - name: "Dell EE"
+    image: ghcr.io/spredzy/dell-ee:0.0.1
