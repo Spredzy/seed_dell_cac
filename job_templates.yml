@@ -10,3 +10,4 @@ controller_templates:
    job_tags: Dell
    labels: Dell
    ask_inventory_on_launch: true
+   ask_credential_on_launch: true
